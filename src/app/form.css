@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.myform{
+    width: 1280px;
+    margin:50px auto;
+}
+label{
+    font-weight: 600;
+    font-size: 20px;
+}
+input{
+    font-size: 20px;
+}
+.submitbtn{
+    padding: 12px 20px;
+    margin-left: 50px;
+    background-color: black;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+}
+.formbtn:active{
+    background-color: #003f00;
+}
+.renderTask{
+    background-color: #ededed;
+    padding: 25px;
+}
+.task-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    border-bottom: 1px solid;
+    background-color: #ededed;
+
+}
+.task-title{
+    font-size: 18px;
+    font-weight: 600;
+    
+}
+.task-desc{
+    font-size: 18px;
+}
+.task-delete{
+    background-color: rgb(255, 60, 60);
+    color: #ffffff;
+    font-weight: 600;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 8px 20px;
+}
